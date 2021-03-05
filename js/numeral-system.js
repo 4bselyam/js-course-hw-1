@@ -1,5 +1,5 @@
 window.addEventListener('DOMContentLoaded', () => {
-    let firstNumber = parseInt(prompt('Введите число')) ?
+    let firstNumber = prompt('Введите число')
     let sysNumber = prompt('Введите систему, в которую надо перевести число')
 
     if (!parseInt(firstNumber) || !parseInt(sysNumber)) {
